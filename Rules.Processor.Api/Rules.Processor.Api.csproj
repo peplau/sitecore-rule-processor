@@ -46,8 +46,9 @@
     <Compile Include="CodeBeside\RuleProcessor.cs" />
     <Compile Include="Commands\Processor.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rules\Actions\AddToProcessor.cs" />
+    <Compile Include="Rules\Actions\LogAction.cs" />
     <Compile Include="Rules\RuleProcessor.cs" />
     <Compile Include="Templates.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -67,6 +68,7 @@
       <DependentUpon>Templates.scx</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

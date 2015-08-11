@@ -96,7 +96,7 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore modules\SitecoreRules\RuleProcessor.xml">
+    <Content Include="sitecore modules\RuleProcessor\RuleProcessor.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.config" />

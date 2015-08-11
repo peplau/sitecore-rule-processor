@@ -9,11 +9,10 @@
       <Toolbar>
         <Toolbutton Header="Bring results" Icon="Applications/32x32/view_next.png" Click="local:bringResults"/>
         <Tooldivider/>
-        <Toolbutton Header="Run actions on all items" Icon="Software/32x32/shape_rectangle.png" Click="local:executeAllActions"/>
-        <Toolbutton Header="Run actions on checked items" Icon="Software/32x32/shape_rectangle.png" Click="local:executeSelectedActions"/>
+        <Toolbutton Header="Run actions on all items" Icon="Applications/32x32/gear_run.png" Click="local:executeAllActions" Disabled="True" ID="btnExecuteAll"/>
+        <Toolbutton Header="Run actions on selected items" Icon="Applications/32x32/gear_ok.png" Click="local:executeSelectedActions" Disabled="True" ID="btnExecuteSelected"/>
         <Tooldivider/>
-        <Toolbutton Header="Check all" Icon="Applications/32x32/checkbox.png" Click="local:checkAll"/>
-        <Toolbutton Header="Uncheck all" Icon="Applications/32x32/check2.png" Click="local:uncheckAll"/>
+        <Toolbutton Header="Select all" Icon="Applications/32x32/checkbox.png" Click="local:selectAll" Disabled="True" ID="btnSelectAll"/>
       </Toolbar>
 
       <Groupbox Header="Root Item">
@@ -25,14 +24,13 @@
 
       <Listview ID="ResultItems" View="Details" MultiSelect="True" ShowCheckboxes="False">
         <ListviewHeader>
-          <ListviewHeaderItem Name="itemid" Header="ID" />
           <ListviewHeaderItem Name="name" Header="Name" />
           <ListviewHeaderItem Name="path" Header="Path" />
           <ListviewHeaderItem Name="language" Header="Language" />
           <ListviewHeaderItem Name="version" Header="Version" />
         </ListviewHeader>
       </Listview>
-
+      
     </FormPage>
   </RuleProcessor>
 </control>
