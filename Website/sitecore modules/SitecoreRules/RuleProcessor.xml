@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense" xmlns:shell="http://www.sitecore.net/shell">
+  <RuleProcessor>
+    <DataContext ID="RootItemDataContext"/>
+
+    <FormPage Text="See results of a Rule">
+      <CodeBeside Type="Rules.Processor.Api.CodeBeside.RuleProcessor,Rules.Processor.Api"/>
+
+      <Toolbar>
+        <Toolbutton Header="Bring results" Icon="Applications/32x32/view_next.png" Click="local:bringResults"/>
+        <Tooldivider/>
+        <Toolbutton Header="Run actions on all items" Icon="Software/32x32/shape_rectangle.png" Click="local:executeAllActions"/>
+        <Toolbutton Header="Run actions on checked items" Icon="Software/32x32/shape_rectangle.png" Click="local:executeSelectedActions"/>
+        <Tooldivider/>
+        <Toolbutton Header="Check all" Icon="Applications/32x32/checkbox.png" Click="local:checkAll"/>
+        <Toolbutton Header="Uncheck all" Icon="Applications/32x32/check2.png" Click="local:uncheckAll"/>
+      </Toolbar>
+
+      <Groupbox Header="Root Item">
+        <GridPanel Columns="2">
+          <TreePicker ID="RootItemSelected" AllowNone="False" DataContext="RootItemDataContext"></TreePicker>
+          <Literal ID="litMessages" Visible="True"></Literal>
+        </GridPanel>
+      </Groupbox>
+
+      <Listview ID="ResultItems" View="Details" MultiSelect="True" ShowCheckboxes="False">
+        <ListviewHeader>
+          <ListviewHeaderItem Name="itemid" Header="ID" />
+          <ListviewHeaderItem Name="name" Header="Name" />
+          <ListviewHeaderItem Name="path" Header="Path" />
+          <ListviewHeaderItem Name="language" Header="Language" />
+          <ListviewHeaderItem Name="version" Header="Version" />
+        </ListviewHeader>
+      </Listview>
+
+    </FormPage>
+  </RuleProcessor>
+</control>

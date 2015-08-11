@@ -1,0 +1,10 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="11" designerY="8">
+    <template templatename="Rule" templateid="{D9BDF22F-6E17-47F3-AB64-49C717BA92DA}" templateuri="/SitecoreRules/master/{D9BDF22F-6E17-47F3-AB64-49C717BA92DA}" classname="Rule">
+      <section id="{8DCE0111-4490-4670-9404-2E4B47496F89}" name="Data">
+        <field id="{45CF9130-802A-41BE-B3EB-C02F657DCC2E}" name="Name" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="RuleName" />
+        <field id="{908EF45D-4940-4B6A-857D-3739BA4ACF8F}" name="Rule" shared="1" source="rulespath=query:../.." type="Rules" unversioned="0" propertyname="Rules" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>
