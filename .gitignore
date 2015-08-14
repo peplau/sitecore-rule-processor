@@ -218,15 +218,15 @@ pip-log.txt
 #############
 ## Sitecore
 #############
-Website/sitecore/
+*.example
+Rules.Processor.Api/Properties/AssemblyInfo.cs
+Rules.Processor.Api/Properties/AssemblyInfo.cs
 Rules.Processor.Api/Properties/AssemblyInfo.cs
 Rules.Processor.Api/Properties/AssemblyInfo.cs
 Website/App_Browsers/Form.browser
-Rules.Processor.Api/Properties/AssemblyInfo.cs
 Website/App_Browsers/XamlPage.browser
-Rules.Processor.Api/Properties/AssemblyInfo.cs
+Website/sitecore/
 Website/App_Config/Include/DataFolder.config.example
-*.example
 Website/App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.Client.config
 Website/App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.config
 Website/App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.Reporting.config
@@ -236,8 +236,14 @@ Website/xsl/
 Website/sitecore_files/
 Website/App_Config/
 Website/App_Data/
-Website/Data/
-!Website/Data/packages/Sitecore Rule Processor.xml
+Website/Data/diagnostics/
+Website/Data/indexes/
+Website/Data/logs/
+Website/Data/serialization/
+Website/Data/viewstate/
+Website/Data/Submit*/
+Website/Data/license.xml
+Website/Data/webdav.lic
 Website/Default.aspx
 Website/_DEV/
 Website/webedit.css
@@ -248,3 +254,4 @@ Website/default.js
 Website/default.htm.sitedown
 Website/default.css
 Rules.Processor.Api/Properties/AssemblyInfo.cs
+Website/Data/packages/readme.txt
