@@ -237,7 +237,7 @@ Website/sitecore_files/
 Website/App_Config/
 Website/App_Data/
 Website/Data/
-!Website/Data/packages/
+!Website/Data/packages/Sitecore Rule Processor.xml
 Website/Default.aspx
 Website/_DEV/
 Website/webedit.css
