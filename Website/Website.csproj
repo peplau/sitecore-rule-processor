@@ -93,9 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\packages\Sitecore Rule Processor.xml" />
     <Content Include="sitecore modules\RuleProcessor\RuleProcessor.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -109,6 +109,10 @@
       <Project>{229a4015-5536-44d0-be1f-ee76bff0cf2c}</Project>
       <Name>Rules.Processor.Api</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\packages\Sitecore Rule Processor-1.0.0.0.zip" />
+    <None Include="Properties\PublishProfiles\Sitecore Rule Processor - Publish.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

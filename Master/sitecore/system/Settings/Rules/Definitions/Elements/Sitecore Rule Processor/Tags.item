@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {5A3B1785-72A3-43E1-8475-66F245E05CC6}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Tags
+parent: {2027E9A4-531C-4D93-93B8-E2868BC2B471}
+name: Tags
+master: {9A72C539-DBF8-4DAD-96D3-A298FC04ADD6}
+template: {96C8E5DD-63C3-496B-A97C-A3E37E1DACBA}
+templatekey: Tags Definitions Folder
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: efc74665-9214-44e8-b5f1-43f6f1ee71c7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150811T155708
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+efc74665-9214-44e8-b5f1-43f6f1ee71c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150811T155708:635749054285702935
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BusinessLayer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Sitecore Rule Processor")]
+[assembly: AssemblyDescription("Sitecore Rule Processor")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BusinessLayer")]
+[assembly: AssemblyCompany("Rodrigo Peplau")]
+[assembly: AssemblyProduct("Sitecore Rule Processor")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
