@@ -227,8 +227,11 @@ Website/App_Browsers/Form.browser
 Website/App_Browsers/XamlPage.browser
 Website/sitecore/
 
-#Website/App_Config/Include/ExperienceProfile/
-#Website/App_Config/Include/Sitecore.*
+Website/App_Config/Include/ExperienceProfile/
+Website/App_Config/Include/Sitecore.*
+Website/App_Config/*.*
+Website/App_Config/Security/
+Website/App_Config/Prefetch/
 
 Website/temp/
 Website/xsl/
