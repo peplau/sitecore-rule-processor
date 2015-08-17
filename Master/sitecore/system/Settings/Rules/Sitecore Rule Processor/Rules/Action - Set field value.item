@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {33B03D9C-017E-44EA-A744-9E32EA5C35AE}
+id: {9E86E269-DF74-4EC8-B263-E3573AA83E87}
 database: master
-path: /sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Rules
+path: /sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Action - Set field value
 parent: {939BF14C-54EC-459A-857D-F223525BA1D1}
-name: Rules
+name: Action - Set field value
 master: {00000000-0000-0000-0000-000000000000}
 template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
 templatekey: Rule
@@ -13,56 +13,51 @@ templatekey: Rule
 field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
 name: Rule
 key: rule
-content-length: 297
+content-length: 441
 
 <ruleset>
-  <rule uid="{748F75D2-6067-4F2A-AC3F-AE91AB6D2138}">
+  <rule uid="{EBAE248D-B469-457C-BD03-5986B9037929}">
     <conditions>
-      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="1A1D69A79B08465C8EADCE37BE8C2157" templateid="{D9BDF22F-6E17-47F3-AB64-49C717BA92DA}" />
+      <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="B5C4402192BB46249F7570DAEB65460C" itemid="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
     </conditions>
-    <actions />
+    <actions>
+      <action id="{B71AC777-EABB-45DD-8FC5-45662CB67EF0}" uid="0AB64F1DD05345A0B714A2B0A6C5D8FD" Name="Title" Text="Static title" />
+    </actions>
   </rule>
 </ruleset>
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 2
-
-50
 ----version----
 language: en
 version: 1
-revision: 7d18b51b-8484-45a4-afa5-945fad02edbb
+revision: 83886e18-3287-4f86-9d6d-11c13df91bba
 
 ----field----
 field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
 name: Name
 key: name
-content-length: 4
+content-length: 15
 
-Rule
+Set field value
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20150807T202007
+20150817T195855
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-7d18b51b-8484-45a4-afa5-945fad02edbb
+83886e18-3287-4f86-9d6d-11c13df91bba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20150817T201957:635754395973253006
+20150817T201950:635754395901225804
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
