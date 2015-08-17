@@ -1,0 +1,113 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Rule Processor</PackageName>
+      <Author>Rodrigo Peplau</Author>
+      <Version>1.0.0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Rules/{6E2F84B9-D41B-4679-BBC5-B5982B691CA0}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Rules/Processor/{5479B0C2-0C1C-4E83-B3E1-8929C0ECEE8E}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Core items</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/{2027E9A4-531C-4D93-93B8-E2868BC2B471}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message/{EC076A29-51C6-436D-A6A5-A0074471AAE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message/Log Level/{352552F9-4ADC-44C4-BEA0-AE61102B5D6B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message/Log Level/Error/{1975C2E7-5DB8-42EF-AD6A-4F388E4432AD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message/Log Level/Info/{B2DCE0F1-DEB7-4340-A142-4917D789C83F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message/Log Level/Warn/{6A83B00B-7CBF-4622-925E-5E89F9265D1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Run Script/{4025221D-310F-4E09-AF82-CE632F735F54}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Set Workflow State/{A7BEAE4A-419D-4DB2-89A4-896A3CB6A75F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Tags/{5A3B1785-72A3-43E1-8475-66F245E05CC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Tags/Default/{16893FAC-AD63-4D4C-A9CC-5483DB143578}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Visibility/{E8181E98-19AA-400E-9717-B0BD3C475093}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Sitecore Rule Processor/{5576E63F-CE99-4ADE-88E6-CD878D077E4F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Sitecore Rule Processor/Visibility/{FA1BF65A-4AC2-4C19-9427-52D851FA827B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/{220A7373-C220-4CA5-988E-739D75926796}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/{939BF14C-54EC-459A-857D-F223525BA1D1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Actions/{6E9B1839-C684-477B-B55C-5EFF9ED71D03}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Rules/{33B03D9C-017E-44EA-A744-9E32EA5C35AE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Tags/{365D4F81-5383-4715-8DCD-22B3072EE07C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Tags/Default/{F3C1BF36-58C5-4296-8FF2-5BE507E89F22}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Replace string in field/{F1A22952-B662-43AE-A6F8-3A9944AAF482}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Set field value/{B71AC777-EABB-45DD-8FC5-45662CB67EF0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Action - Replace string in field/{63A13847-21A0-41DF-9147-9E7E0759771A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Action - Set field value/{9E86E269-DF74-4EC8-B263-E3573AA83E87}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/SitecoreRulesProcessor.config</x-item>
+        <x-item>/bin/Rules.Processor.Api.dll</x-item>
+        <x-item>/sitecore modules/RuleProcessor/RuleProcessor.xml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
