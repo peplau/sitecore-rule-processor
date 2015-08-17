@@ -95,6 +95,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\packages\Sitecore Rule Processor - 1.0.0.1.xml" />
     <Content Include="Data\packages\Sitecore Rule Processor.xml" />
     <Content Include="sitecore modules\RuleProcessor\RuleProcessor.xml">
       <SubType>Designer</SubType>
@@ -112,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\packages\Sitecore Rule Processor-1.0.0.0.zip" />
+    <Content Include="Data\packages\Sitecore Rule Processor-1.0.0.1.zip" />
     <None Include="Properties\PublishProfiles\Sitecore Rule Processor - Publish.pubxml" />
   </ItemGroup>
   <PropertyGroup>
