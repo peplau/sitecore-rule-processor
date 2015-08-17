@@ -18,6 +18,7 @@ namespace Rules.Processor.Api.CodeBeside
     {
         #region Registered controls from XAML
         protected Listview ResultItems;
+        protected ListviewHeader ResultItemsHeader;
         protected TreePicker RootItemSelected;
         protected DataContext RootItemDataContext;
         protected Button RunButton;
@@ -77,6 +78,12 @@ namespace Rules.Processor.Api.CodeBeside
             {
                 //RunButton.OnClick += RunButtonClick;
             }
+
+            //ResultItems.OnClick += ResultItemsOnOnClick;
+            //ResultItems.OnDblClick += ResultItemsOnOnDblClick;
+            //ResultItems.SortBy = "name";
+            //ResultItems.SortAscending = true;
+
             base.OnLoad(args);
         }
 
@@ -84,7 +91,7 @@ namespace Rules.Processor.Api.CodeBeside
         {
             RootItemDataContext.GetFromQueryString();
             RootItemDataContext.Root = Client.ContentDatabase.GetRootItem().ID.ToString();
-            RootItemDataContext.Folder = Client.ContentDatabase.GetRootItem().ID.ToString();
+            RootItemDataContext.Folder = Client.ContentDatabase.GetRootItem().ID.ToString();            
         }
 
         [HandleMessage("local:selectAll")]

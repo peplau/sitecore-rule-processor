@@ -23,7 +23,7 @@
       </Groupbox>
 
       <Listview ID="ResultItems" View="Details" MultiSelect="True" ShowCheckboxes="False">
-        <ListviewHeader>
+        <ListviewHeader ID="ResultItemsHeader">
           <ListviewHeaderItem Name="name" Header="Name" />
           <ListviewHeaderItem Name="path" Header="Path" />
           <ListviewHeaderItem Name="language" Header="Language" />

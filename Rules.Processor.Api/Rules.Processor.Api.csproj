@@ -49,6 +49,7 @@
     <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\Actions\LogAction.cs" />
+    <Compile Include="Rules\Actions\ReplaceStringInField.cs" />
     <Compile Include="Rules\RuleProcessor.cs" />
     <Compile Include="Templates.Designer.cs">
       <AutoGen>True</AutoGen>
