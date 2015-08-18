@@ -59,6 +59,7 @@
     <Compile Include="Rules\Actions\ReplaceStringInField.cs" />
     <Compile Include="Rules\Actions\SerializeItem.cs" />
     <Compile Include="Rules\Actions\SetFieldValue.cs" />
+    <Compile Include="Rules\Actions\SetFieldValueAsItemId.cs" />
     <Compile Include="Rules\RuleProcessor.cs" />
     <Compile Include="Templates.Designer.cs">
       <AutoGen>True</AutoGen>
