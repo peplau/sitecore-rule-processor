@@ -53,10 +53,12 @@
     <Compile Include="Commands\Processor.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\Actions\EmptyField.cs" />
     <Compile Include="Rules\Actions\LogAction.cs" />
     <Compile Include="Rules\Actions\ReplaceStringInField.cs" />
+    <Compile Include="Rules\Actions\ReplaceStringInItemName.cs" />
     <Compile Include="Rules\Actions\SerializeItem.cs" />
     <Compile Include="Rules\Actions\SetFieldValue.cs" />
     <Compile Include="Rules\Actions\SetFieldValueAsItemFieldValue.cs" />
