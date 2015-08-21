@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {EC076A29-51C6-436D-A6A5-A0074471AAE9}
+id: {4B07B61D-4D2A-4880-B67C-8583E3FFA4AF}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Publish item
 parent: {2027E9A4-531C-4D93-93B8-E2868BC2B471}
-name: Log Message
+name: Publish item
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
@@ -13,28 +13,28 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 63
+content-length: 65
 
-Rules.Processor.Api.Rules.Actions.LogAction,Rules.Processor.Api
+Rules.Processor.Api.Rules.Actions.PublishItem,Rules.Processor.Api
 ----version----
 language: da
 version: 1
-revision: 261d7aec-d3d2-4de7-a819-dce4b4543deb
+revision: 975509f3-ba2e-47b0-959a-74b820b90bdb
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 145
+content-length: 38
 
-Føj meddelelse til logfil: [level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,level], [text,,,text]
+kør [scriptid,Script,,specific] script
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 13
+content-length: 10
 
-Logmeddelelse
+Kør script
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T014739:635478976595120241
+20141003T015052:635478978520088873
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-261d7aec-d3d2-4de7-a819-dce4b4543deb
+975509f3-ba2e-47b0-959a-74b820b90bdb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T014739:635478976597150958
+20141003T015052:635478978520557500
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -80,22 +80,22 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 7fc5d715-f222-4cb6-8f28-2d8128720f30
+revision: 3393fc48-16fa-4fd7-bc28-5be96d772bcd
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 153
+content-length: 46
 
-Nachricht zur Logdatei hinzufügen: [Level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,level], [Text,,,Text]
+starten [scriptid,Script,,spezifisches] Script
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 13
+content-length: 16
 
-Log Nachricht
+Script ausführen
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,7 +109,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T010342:635478950229002503
+20141003T010831:635478953118014875
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -123,14 +123,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7fc5d715-f222-4cb6-8f28-2d8128720f30
+3393fc48-16fa-4fd7-bc28-5be96d772bcd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T010343:635478950230408483
+20141003T010831:635478953118327301
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -141,15 +141,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 9b926742-7241-4064-b2e8-60bf95051ef4
+revision: 24c7ade5-d214-42b2-9f56-d901e0b86a2e
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 205
+content-length: 151
 
-Add message to log file: [level,Tree,root={352552F9-4ADC-44C4-BEA0-AE61102B5D6B}&resulttype=name&setRootAsSearchRoot=true,level], [text,,Item processed - ID: {0} - Name: {1},text], [fields,,ID|Name,fields]
+publish item with [method,Tree,root={B02881B5-C7A4-457E-AEE4-A55DF65CD8BA}&resulttype=name&setRootAsSearchRoot=true,method] to [targetDb,,web,targetDb]
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -163,7 +163,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20121009T180300
+20081203T113157
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -177,14 +177,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9b926742-7241-4064-b2e8-60bf95051ef4
+24c7ade5-d214-42b2-9f56-d901e0b86a2e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20150821T184517:635757795170037374
+20150821T190701:635757808214371677
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -195,22 +195,22 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 92f67620-1fae-418e-8c82-1d4d1dfe091f
+revision: af0a4604-0920-473a-bea0-a27cc4f62905
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 142
+content-length: 41
 
-メッセージをログ ファイルに追加する： （[level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,レベル]、[text,,,追加するメッセージ]）
+スクリプト（ [scriptid,Script,,特定のスクリプト] ）を実行する
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 8
+content-length: 7
 
-ログ メッセージ
+スクリプト実行
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -224,7 +224,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T023158:635479003185272889
+20141003T023423:635479004635225585
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -238,14 +238,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-92f67620-1fae-418e-8c82-1d4d1dfe091f
+af0a4604-0920-473a-bea0-a27cc4f62905
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T023158:635479003185741519
+20141003T023423:635479004636319069
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

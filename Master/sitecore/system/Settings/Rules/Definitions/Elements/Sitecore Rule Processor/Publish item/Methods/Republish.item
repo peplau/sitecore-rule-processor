@@ -1,40 +1,26 @@
 ----item----
 version: 1
-id: {EC076A29-51C6-436D-A6A5-A0074471AAE9}
+id: {25F436D1-9C67-4DD9-9362-83965DD70631}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Log Message
-parent: {2027E9A4-531C-4D93-93B8-E2868BC2B471}
-name: Log Message
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Publish item/Methods/Republish
+parent: {B02881B5-C7A4-457E-AEE4-A55DF65CD8BA}
+name: Republish
 master: {00000000-0000-0000-0000-000000000000}
-template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
-templatekey: Action
+template: {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+templatekey: Standard template
 
-----field----
-field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
-name: Type
-key: type
-content-length: 63
-
-Rules.Processor.Api.Rules.Actions.LogAction,Rules.Processor.Api
 ----version----
 language: da
 version: 1
-revision: 261d7aec-d3d2-4de7-a819-dce4b4543deb
+revision: 26c944d8-2e0e-4ac0-b18a-7f0d19a57ee7
 
-----field----
-field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
-name: Text
-key: text
-content-length: 145
-
-Føj meddelelse til logfil: [level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,level], [text,,,text]
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 13
+content-length: 5
 
-Logmeddelelse
+Advar
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +34,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T014739:635478976595120241
+20141003T014522:635478975222635816
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-261d7aec-d3d2-4de7-a819-dce4b4543deb
+26c944d8-2e0e-4ac0-b18a-7f0d19a57ee7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T014739:635478976597150958
+20141003T014522:635478975222635816
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -80,22 +66,15 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 7fc5d715-f222-4cb6-8f28-2d8128720f30
+revision: c441ccaf-ff48-4c3b-85d7-558eef3e1bd9
 
-----field----
-field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
-name: Text
-key: text
-content-length: 153
-
-Nachricht zur Logdatei hinzufügen: [Level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,level], [Text,,,Text]
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 13
+content-length: 6
 
-Log Nachricht
+Warnen
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,7 +88,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T010342:635478950229002503
+20141003T010135:635478948952857095
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -123,14 +102,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7fc5d715-f222-4cb6-8f28-2d8128720f30
+c441ccaf-ff48-4c3b-85d7-558eef3e1bd9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T010343:635478950230408483
+20141003T010135:635478948952857095
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -141,15 +120,8 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 9b926742-7241-4064-b2e8-60bf95051ef4
+revision: 485d7dd0-5f51-4f3b-846c-51db86d28d0a
 
-----field----
-field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
-name: Text
-key: text
-content-length: 205
-
-Add message to log file: [level,Tree,root={352552F9-4ADC-44C4-BEA0-AE61102B5D6B}&resulttype=name&setRootAsSearchRoot=true,level], [text,,Item processed - ID: {0} - Name: {1},text], [fields,,ID|Name,fields]
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -163,7 +135,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20121009T180300
+20121009T180739
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -177,14 +149,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9b926742-7241-4064-b2e8-60bf95051ef4
+485d7dd0-5f51-4f3b-846c-51db86d28d0a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20150821T184517:635757795170037374
+20150821T185157:635757799177408071
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -195,22 +167,15 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 92f67620-1fae-418e-8c82-1d4d1dfe091f
+revision: f3de50ce-4f18-4641-aa7f-dc89ef1d7d35
 
-----field----
-field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
-name: Text
-key: text
-content-length: 142
-
-メッセージをログ ファイルに追加する： （[level,Tree,root={0F40AF58-9F5F-4F1B-B11B-639E87AA86AF}&resulttype=name&setRootAsSearchRoot=true,レベル]、[text,,,追加するメッセージ]）
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 8
+content-length: 2
 
-ログ メッセージ
+警告
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -224,7 +189,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20141003T023158:635479003185272889
+20141003T023109:635479002697109453
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -238,14 +203,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-92f67620-1fae-418e-8c82-1d4d1dfe091f
+f3de50ce-4f18-4641-aa7f-dc89ef1d7d35
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141003T023158:635479003185741519
+20141003T023109:635479002697109453
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
