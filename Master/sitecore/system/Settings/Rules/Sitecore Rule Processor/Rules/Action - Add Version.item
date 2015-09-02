@@ -1,0 +1,67 @@
+----item----
+version: 1
+id: {85C051E6-5656-4623-946B-BEF776454D1C}
+database: master
+path: /sitecore/system/Settings/Rules/Sitecore Rule Processor/Rules/Action - Add Version
+parent: {939BF14C-54EC-459A-857D-F223525BA1D1}
+name: Action - Add Version
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 422
+
+<ruleset>
+  <rule uid="{EBAE248D-B469-457C-BD03-5986B9037929}">
+    <conditions>
+      <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="B5C4402192BB46249F7570DAEB65460C" itemid="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+    </conditions>
+    <actions>
+      <action id="{15E1CC9C-DC3B-4843-B360-26F873DCA211}" uid="E0F5A647B0AE476A80E6DB4BF49733C2" language="en" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 026546f6-5571-451f-8bb6-7a55d36273ab
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 11
+
+Add version
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150817T195855
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+026546f6-5571-451f-8bb6-7a55d36273ab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150902T165502:635768097021817321
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
