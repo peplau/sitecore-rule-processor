@@ -56,6 +56,7 @@
     <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\Actions\DeleteItem.cs" />
     <Compile Include="Rules\Actions\EmptyField.cs" />
     <Compile Include="Rules\Actions\LogAction.cs" />
     <Compile Include="Rules\Actions\PublishItem.cs" />
