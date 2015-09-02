@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {DD2C4D07-7D44-4CD4-8BA5-07817341200E}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Sitecore Rule Processor/Copy item to
+parent: {2027E9A4-531C-4D93-93B8-E2868BC2B471}
+name: Copy item to
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+
+----field----
+field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
+name: Type
+key: type
+content-length: 64
+
+Rules.Processor.Api.Rules.Actions.CopyItemTo,Rules.Processor.Api
+----version----
+language: en
+version: 1
+revision: a3e74213-f1e8-4ba2-94af-39a57a47a516
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 167
+
+[copy,Tree,root={06B4394B-A0C4-4DDA-9074-11766175CF79}&resulttype=name&setRootAsSearchRoot=true,copy] item to [ItemId,Tree,resulttype=id&setRootAsSearchRoot=true,Item]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150817T193713
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3e74213-f1e8-4ba2-94af-39a57a47a516
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150902T154845:635768057256581195
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
